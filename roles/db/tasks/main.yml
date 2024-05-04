@@ -1,8 +1,3 @@
-- name: mysql_root_Password
-  prompt: Enter Root Password
-  private: no
-  
-tasks:
 - name: install MySQL
   ansible.builtin.dnf:
     name: mysql-server
