@@ -1,5 +1,7 @@
 - name: configure database server 
   hosts: db 
   become: yes
+  vars_files:
+  - credits.yml
   roles:
   - db
