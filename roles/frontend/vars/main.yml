@@ -1,1 +1,3 @@
 backend_server: http://backend.devopsbhaskar.online
+components: frontend
+app_location: /usr/share/nginx/html
