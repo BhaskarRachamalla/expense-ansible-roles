@@ -12,7 +12,5 @@ filters:
 compose:
  ansible_host: private_ip_address
 
-var_files:
-  - var.yml
 
 

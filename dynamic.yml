@@ -1,0 +1,8 @@
+- name: install packages  
+  hosts: aws_ec2  
+  become: yes
+  tasks:
+  - name: install postfix
+    ansible.builtin.dnf:
+      name: postfix
+      state: latest
