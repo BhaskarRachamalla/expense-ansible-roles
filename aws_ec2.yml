@@ -12,3 +12,8 @@ filters:
 compose:
  ansible_host: private_ip_address
 
+---
+
+- name: IP
+  ansible.builtin.debug:
+   msg: "{{ private_ip_address }}"
